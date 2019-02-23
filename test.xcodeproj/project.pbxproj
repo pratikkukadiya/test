@@ -12,6 +12,7 @@
 		915A32871F1149410090DD7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 915A32851F1149410090DD7B /* Main.storyboard */; };
 		915A32891F1149410090DD7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 915A32881F1149410090DD7B /* Assets.xcassets */; };
 		915A328C1F1149410090DD7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 915A328A1F1149410090DD7B /* LaunchScreen.storyboard */; };
+		916388892221AB2C00F36E9F /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 916388882221AB2C00F36E9F /* ViewController2.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		915A32881F1149410090DD7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		915A328B1F1149410090DD7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		915A328D1F1149410090DD7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		916388882221AB2C00F36E9F /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +57,7 @@
 			isa = PBXGroup;
 			children = (
 				915A32811F1149410090DD7B /* AppDelegate.swift */,
+				916388882221AB2C00F36E9F /* ViewController2.swift */,
 				915A32831F1149410090DD7B /* ViewController.swift */,
 				915A32851F1149410090DD7B /* Main.storyboard */,
 				915A32881F1149410090DD7B /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 			files = (
 				915A32841F1149410090DD7B /* ViewController.swift in Sources */,
 				915A32821F1149410090DD7B /* AppDelegate.swift in Sources */,
+				916388892221AB2C00F36E9F /* ViewController2.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +303,7 @@
 				915A32921F1149410090DD7B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
